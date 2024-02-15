@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      display: flex;
+    }
+
+
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+       text-decoration: none;
+       width: max-content;
+    }
+
+    li a:hover {
+       width: max-content;
+      background-color: #111;
+    }
+    .container{display: flex;}
+.img1 , .img2 {
+  height: 100vh;
+width:50vw;
+background-color: red;
+margin: 3px;}
+
+
+
+    @media only screen and (max-width: 780px) {.container-fluid{display: flex;}
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: max-content;
+        height: 100vh;
+        background-color: rgb(137, 137, 155);
+      }
+
+      .container{display: flex;
+      flex-direction: column;
+    align-items: flex-end;}
+    
+    li a:hover {
+      background-color: #9a4ee5;
+    }
+
+.img1 ,.img2 {
+  height: 50vh;
+width:67vw;
+background-color: rgb(135, 101, 101);
+margin: 3px;}
+
+li a:hover {
+       width: 56px;
+      background-color: #111;
+    }
+    }
+  </style>
+</head>
+
+<body><div class="container-fluid">
+  <div class="nav">
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+
+    </ul>
+  </div>
+
+  
+    <div class="container">
+      <div class="img1"></div>
+      <div class="img2"></div>
+    </div>
+  </div>
+</body>
+
+</html>

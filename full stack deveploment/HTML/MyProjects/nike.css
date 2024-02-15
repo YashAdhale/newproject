@@ -1,0 +1,722 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: '40px Roboto', sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+  background-color: #F5F5F5;
+}
+
+.small {
+  font-size: 14px;
+  color: gray;
+  line-height: 30px;
+  margin-top: 12px;
+  list-style: none;
+}
+
+.container {
+  width: 95%;
+  height: 42px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  position: relative;
+  font-family: 'Geologica', sans-serif;
+  font-size: 12px;
+  color: rgb(69, 69, 69);
+  display: flex;
+  justify-content: space-between;
+  column-gap: 18px;
+
+}
+
+
+.jordan {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkC7fDyXt6LtI-4VyrHTz7JdTWN463pgN6tOQXbtfltg&s);
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+}
+
+.container2 {
+  margin-left: 16px;
+  width: 96%;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+
+.NikeImg {
+  background-image: url("https://media.designrush.com/inspiration_images/134805/conversions/_1512076803_93_Nike-mobile.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 65px;
+  width: 103px;
+  margin-bottom: 13px;
+
+}
+
+.container2>.nav {
+  font-size: medium;
+  font-weight: 10;
+  margin-left: 206px;
+
+}
+
+.search {
+  font-family: 'Geologica', sans-serif;
+  font-size: 16px;
+  display: flex;
+  color: rgb(204, 204, 204);
+  background-color: rgb(245, 245, 245);
+  width: 180px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  column-gap: 23px;
+  margin-bottom: 29px;
+}
+
+.icons {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon1 {
+  margin-top: -30px;
+}
+
+.nav2 {
+  height: 47px;
+}
+
+.nav2>div:hover {
+  border-bottom: 3px solid black;
+  cursor: pointer;
+  height: 33px;
+}
+
+.item1 {
+  width: 100%;
+}
+
+.hover {
+  z-index: 10000;
+  position: absolute;
+  left: -503px;
+  padding-right: 1519px;
+  display: none;
+  margin-top: 17px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 388px;
+}
+
+.height {
+  height: 660px;
+}
+
+.height1 {
+  height: 700px;
+}
+
+.item1:hover .hover {
+  width: 100%;
+  display: block;
+
+}
+
+.item2:hover .hover {
+  width: 100%;
+  display: block;
+}
+
+.item3:hover .hover {
+  width: 100%;
+  display: block;
+}
+
+.item4:hover .hover {
+  width: 100%;
+  display: block;
+}
+
+.item5:hover .hover {
+  width: 100%;
+  display: block;
+}
+
+.flexHover {
+  display: flex;
+  width: 1457px;
+  justify-content: space-around;
+  padding-left: 100px;
+  /* border: 10px solid brown; */
+}
+
+.small>li:hover {
+  color: black;
+}
+
+.hover1 {
+  /* border: 1px solid rgb(0, 0, 0); */
+  margin-top: 71px;
+  width: 222px;
+}
+
+.hover2 {
+  /* border: 1px solid blue; */
+  width: 222px;
+  margin-top: 71px;
+
+}
+
+.hover3 {
+  margin-top: 71px;
+
+  /* border: 1px solid blue; */
+  width: 222px;
+}
+
+.hover4 {
+  margin-top: 71px;
+
+  /* border: 1px solid blue; */
+  width: 222px;
+}
+
+.hover5 {
+  margin-top: 71px;
+
+  /* border: 1px solid blue; */
+  width: 222px;
+}
+
+/* .container3 {
+  width: 100%;
+  /* height: 2000px; */
+  /* display: flex;
+} */ 
+
+.L {z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Lcontent2 {
+  /* border: 1px solid red; */
+  width: 286px;
+  position: absolute;
+  display: flex;
+  top: 59px;
+  left: 1171px;
+  column-gap: 32px;
+
+}
+
+.Lcontent {
+  margin-top: 49px;
+  margin-left: 45px;
+}
+
+.L1 {
+  display: flex;
+  width: 300px;
+}
+
+.L2 {
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .left {
+  color: rgb(17, 17, 17);
+  width: 89%;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  position: sticky;top: 0;
+  border: 1px solid black;
+}
+
+.container3 {
+  width: 100%;
+}
+
+.right {
+  border: 1px solid black;
+
+  width: 85%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: content;
+  background-image: url(https://static.wixstatic.com/media/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.jpg/v1/crop/x_0,y_670,w_3840,h_2792/fill/w_1060,h_761,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.jpg);
+} */
+/* 
+.par1 {
+  
+  width: 15%;
+  overflow-y: scroll;
+  
+}
+
+.container-fluid3 {
+  font-family: 'Geologica', sans-serif;
+  font-weight: lighter;
+  margin-left: 39px;
+  margin-top: 54px;
+} */
+/* 
+.Categories {
+  margin-left: 18px;
+  margin-top: 22px;
+  line-height: 1.8em;
+  list-style: none;
+  padding-bottom: 19px;
+} */
+
+/* .box {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-top: 1px solid rgb(230, 223, 223);
+  border-bottom: 1px solid rgb(230, 223, 223);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banner */
+
+.container-fluid3{
+  width: 100%;
+}
+
+.container3{
+  width: 100%;
+}
+
+.main2{
+  width: 100%;
+  display: flex;
+}
+
+.left{margin-left: 44px;
+  width: 19%;
+line-height: 40px;
+  overflow-y: scroll;
+  height: 775px;
+position: sticky;
+top:0px;
+}
+
+.left::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  width: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+background-color: rgb(127,127,127);
+  border-radius: 10px;
+}
+
+.right{
+  width: 100%;
+  overflow-x: hidden;
+height: 100%;
+}
+
+
+.main3{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.rows{
+width: 100%;
+height:322px;
+display: flex;
+margin-bottom: 148px;
+margin-left: 50px;
+}
+
+.first{ width: 32%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.red{margin-top: 12px;
+  color: rgb(158,53,0);}
+
+  .HiddenT{font-family: Helvetica , Helvetica, Arial, sans-serif;
+  color: rgb(120,120,122);
+font-size:90%;
+}
+
+.first:hover .HiddenT{display: none;}
+.first:hover .None{display: block;}
+
+.NoneText{line-height: 23px;}
+
+.showImg{display: flex;}
+.img1>img{width: 60px;
+margin: 1px;}
+.None{display: none;}
+.shoes1{
+  background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a3f7b3e2-2246-4873-ab8e-9d26b65e3e3f/air-penny-2-shoes-rCwG6S.png);
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  
+  }
+
+
+.shoes2{
+  background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ba08723a-a8e4-496e-b0f5-66436807076e/jumpman-mvp-shoes-JV1HCs.png" );
+  
+
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  }
+
+
+
+  .shoes3{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8d02d34f-57cb-4507-8c2a-f724933bcee7/ispa-link-axis-shoes-p2gV6M.png"  );
+    
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+
+    
+  .shoes4{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5272d2da-c134-476f-94b7-46626813578f/phantom-luna-2-elite-lv8-fg-high-top-football-boot-Hvzq44.png"  );
+    
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+
+
+    .shoes5{
+      background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/67b95603-9b40-4e14-9ab3-f4c6c79151a5/alphafly-2-road-racing-shoes-DcWrKF.png"  );
+      
+      
+      background-size: contain;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      }
+  
+
+      
+  .shoes6{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4d392168-af3f-43f3-be8b-3ff774faaa05/air-foamposite-one-shoes-9ZhmtD.png")  ;
+    
+
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+
+    
+  .shoes7{
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7776f88c-1bf6-49ac-a53b-b532f4c51a87/alphafly-3-road-racing-shoes-d6x9mh.png );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+    
+  .shoes8{
+    background-image:url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7fb3317f-ae18-4e83-a722-05486a26feb3/alphafly-3-proto-road-racing-shoes-K7BClg.png);
+    width: 100%;
+    
+    background-size: contain;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+    
+  .shoes9{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f95a213b-6ac3-438d-ac95-5b85dc39d9a6/zoom-fly-5-road-running-shoes-sgfZQr.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+      
+
+.shoes10{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/53a03537-56e4-49f7-b0b7-26650cd4fb43/zoom-metcon-turbo-2-workout-shoes-jPvmwl.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+.shoes11{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/51c619ce-a95e-487a-9059-9b841baaaec0/metcon-9-amp-workout-shoes-Dwx2GX.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+.shoes12{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c167cf21-69ad-4953-9927-62c1bc61cdea/superrep-4-nn-workout-shoes-02N3GW.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+.shoes13{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/827f9089-17e5-49e8-9157-06565bee7873/sb-force-58-skate-shoes-LJNW5L.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+.shoes14{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fambaubeufwpravdy1xs/sb-zoom-blazer-mid-skate-shoe-cM9sg4.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+.shoes15{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/gkw6iwam4snfj3uqionx/sb-check-canvas-older-skate-shoes-PMLTfN.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+.shoes16{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2153fc87-bcb1-40df-908a-8690ebb3882a/adjust-force-sandals.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+.shoes17{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/36b18a2c-bc36-43bc-8418-4b380e039e2f/air-more-uptempo-slides-32GKw3.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+.shoes18{
+    background-image: url("https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/953e139e-f6fb-43fd-b533-eedce55e48bb/air-max-1-slides-nMLg3B.png"  );
+    
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shoes>img{width: 107%;
+height: 121%;}
+
+.head{margin-top: 45px;
+font-weight: normal;}
+
+.NewContent{width: 95%;
+  margin: auto;
+  height: 300px;
+  border-top: 1px solid rgb(212,212,212);
+  
+}
+
+.texts{display: flex;
+}
+
+.ntex{cursor: pointer;
+  border: 2px solid rgb(212,212,212);
+margin: 13px;
+padding-left: 11px;
+  padding-right: 11px;
+ border-radius: 12px;
+font-weight:300 ;
+font-size: small;
+height: 26px;
+padding-top: 3px;}
+
+.ntex:hover{border-color:gray ;}
+
+
+.slider{width: 100%;
+  height: 300px;
+  border-top: 1px solid rgb(212,212,212);
+  overflow-x: auto;
+  margin-bottom: 23px;
+}
+.slider1{  width: 200%;
+  height: 300px;
+  overflow-y: scroll;
+  display: flex;
+  column-gap: 12px;
+
+}
+.slider>img{width: 250px;
+  margin-top: 12px;
+}
+
+.slider::-webkit-scrollbar{display: none;}
+
+footer{width: 100%;
+height: 380px;
+background-color: rgb(17,17,17);}
+
+
+.footercontent{width: 100%;
+height: 330px;
+color: white;
+display: flex;
+
+}
+.margintop{margin-top: 43px;
+margin-left: 25px;
+line-height: 30px;
+}
+
+.heightf{line-height: 12px;}
+
+div>li{font-weight: 100;
+  list-style: none;
+  font-size: small;
+}
+.content1{font-weight: 100;
+  list-style: none;
+  
+
+}
+.content2{font-weight: 100;
+  list-style: none;
+
+}
+.content3{font-weight: 100;
+  list-style: none;
+}
+.content4{font-weight: 100;
+  list-style: none;
+  display: flex;
+color: white;
+justify-content: space-between;
+width: 80%;
+margin: auto;
+
+}
+
+
+.add{display: flex;
+column-gap: 23px;
+margin-left: 13px;
+position: relative;}
+
+.h {
+  display:none;
+border: 1px solid rgb(255, 255, 255);
+position: absolute;
+top: -205px;
+left: -217px;
+height: 181px;
+width: 581px;
+}
+.h>div{align-items: center;
+  justify-content: space-around;
+  column-gap: 23px;}
+.f{display: flex;}
+
+.Guides:hover .h{display: block;}
+
+

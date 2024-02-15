@@ -1,0 +1,425 @@
+:root {
+  --main-color: #312e2B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-color);
+  margin: 0;
+}
+
+.chesslogo {
+  background-color: rgb(38, 37, 34);
+}
+
+.container {
+  width: 500px;
+  height: max-content;
+}
+
+.main {
+  display: flex;
+  column-gap: 13px;
+  position: relative;
+  margin-bottom: 60px;
+
+}
+
+.parent {
+  background-color: var(--main-color);
+  width: 40%;
+  margin-left: 315px;
+  margin-top: 23px;
+
+}
+
+.chess-sidebar {
+  padding-top: 13px;
+  width: 150px;
+  height: 100vw;
+  background-color: rgb(38, 37, 34);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  line-height: 2.2em;
+  position: fixed;
+}
+
+
+.sidebarIcon {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  font-weight: bold;
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 7px;
+  line-height: 44px;
+  background-color: rgb(38, 37, 34);
+  margin-top: 5px;
+
+}
+
+.sidebarIcon:hover {
+  background-color: rgb(48, 46, 43);
+}
+
+.hover1,
+.hover2 {
+  list-style: none;
+  position: absolute;
+  left: 135px;
+  top: 0px;
+  line-height: 2.2em;
+  font-size: medium;
+  border: 1px solid red;
+  width: 318px;
+  height: 100vh;
+  background-color: rgb(20, 20, 19);
+  display: none;
+}
+
+.Play:hover .hover1 {
+  display: block;
+}
+
+.Puzzle:hover .hover2 {
+  display: block;
+}
+
+.row1 {
+  display: flex;
+
+}
+
+.col1,
+.col2,
+.col7,
+.col8 {
+  cursor: grab;
+}
+
+
+
+
+
+.col1>img:hover {
+  background-color: hsla(65, 85%, 64%, 0.8);
+  border: 3px solid white;
+}
+
+.col2>img:hover {
+  background-color: hsla(65, 85%, 64%, 0.8);
+  border: 3px solid white;
+}
+
+
+.col7>img:hover {
+  background-color: hsla(65, 85%, 64%, 0.8);
+  border: 3px solid white;
+}
+
+.col8>img:hover {
+  background-color: hsla(65, 85%, 64%, 0.8);
+  border: 3px solid white;
+}
+
+.col1:nth-child(2n+1) {
+  background-color: rgb(233, 237, 204);
+}
+
+.col1:nth-child(even) {
+  background-color: rgb(119, 149, 86);
+}
+
+
+.col2:nth-child(even) {
+  background-color: rgb(233, 237, 204);
+}
+
+.col2:nth-child(2n+1) {
+  background-color: rgb(119, 153, 84);
+}
+
+.col3:nth-child(2n+1) {
+  background-color: rgb(233, 237, 204);
+}
+
+.col3:nth-child(even) {
+  background-color: rgb(119, 153, 84);
+}
+
+.col4:nth-child(even) {
+  background-color: rgb(233, 237, 204);
+}
+
+.col4:nth-child(2n+1) {
+  background-color: rgb(119, 153, 84);
+}
+
+.col5:nth-child(2n+1) {
+  background-color: rgb(233, 237, 204);
+}
+
+.col5:nth-child(even) {
+  background-color: rgb(119, 153, 84);
+}
+
+.col6:nth-child(even) {
+  background-color: rgb(233, 237, 204);
+}
+
+.col6:nth-child(2n+1) {
+  background-color: rgb(119, 153, 84);
+}
+
+.col7:nth-child(2n+1) {
+  background-color: rgb(233, 237, 204);
+}
+
+.col7:nth-child(even) {
+  background-color: rgb(119, 153, 84);
+}
+
+.col8:nth-child(even) {
+  background-color: rgb(233, 237, 204);
+}
+
+.col8:nth-child(2n+1) {
+  background-color: rgb(119, 153, 84);
+}
+
+.col1>img {
+  width: 61px;
+}
+
+.col2>img {
+  width: 61px;
+}
+
+.col7>img {
+  width: 61px;
+}
+
+.col8>img {
+  width: 61px;
+}
+
+.col1 {
+  width: 62.5%;
+  height: 61px;
+}
+
+.col2 {
+  width: 62.5%;
+  height: 61px;
+}
+
+.col3 {
+  width: 62.5%;
+  height: 61px;
+}
+
+.col4 {
+  width: 62.5%;
+  height: 61px;
+}
+
+.col5 {
+  width: 62.5%;
+  height: 61px;
+}
+
+.col6 {
+  width: 62.5%;
+  height: 61px;
+}
+
+.col7 {
+  width: 62.5%;
+  height: 61px;
+}
+
+.col8 {
+  width: 62.5%;
+  height: 61px;
+}
+
+.row2 {
+  display: flex;
+}
+
+
+
+
+.row3 {
+  display: flex;
+}
+
+
+
+.row4 {
+  display: flex;
+}
+
+.row5 {
+  display: flex;
+}
+
+
+.row6 {
+  display: flex;
+}
+
+
+
+.row7 {
+  display: flex;
+}
+
+
+
+.row8 {
+  display: flex;
+}
+
+.text3 {
+  margin-top: 45px;
+}
+
+.text1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin-right: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  line-height: 57px;
+}
+
+.text2 {
+  display: flex;
+}
+
+.text2>div {
+  padding: 16px;
+  color: rgb(152, 151, 143);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text2>div>span {
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+.firstButton {
+  margin-top: 29px;
+  display: flex;
+  column-gap: 19px;
+  width: 96%;
+  height: 90px;
+  background-color: rgb(129, 182, 76);
+  border-radius: 11px;
+  border-bottom: 5px solid rgb(69, 117, 60);
+  outline: 10px solid transparent;
+}
+
+.secondButton {
+  margin-top: 29px;
+  display: flex;
+  column-gap: 19px;
+  width: 96%;
+  height: 90px;
+  background-color: rgb(64, 62, 60);
+  border-radius: 11px;
+  border-bottom: 5px solid rgb(51, 50, 48);
+  outline: 10px solid transparent;
+}
+
+.firstButton:hover {
+  filter: brightness(120%);
+  text-shadow: 0 0 0.1px #fff, 0 0 0.2px #fff, 0 0 0.3px;
+}
+
+.secondButton:hover {
+  filter: brightness(120%);
+  text-shadow: 0 0 0.1px #fff, 0 0 0.2px #fff, 0 0 0.3px;
+}
+
+.textp {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.textp2 {
+  text-align: center;
+  color: rgb(196, 196, 196);
+  font-size: 30px;
+  padding: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.textp>div {
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.textp2>div {
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.PlayImg {
+  margin-top: 19px;
+  margin-left: 42px;
+}
+
+.newDiv1 {background-color: rgb(38,37,34);
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-left: 320px;
+  width: 67%;
+  height: 504px;
+}
+
+.Div1st{width: 50%;
+font-size: 35px;}
+
+.textp3 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-left: 13px;
+  width: 89%;
+}
+
+.thirdButton {
+  margin-top: 29px;
+  display: flex;
+  column-gap: 19px;
+  width: 24%;
+  height: 65px;
+  background-color: rgb(129, 182, 76);
+  border-radius: 11px;
+  border-bottom: 5px solid rgb(69, 117, 60);
+  outline: 10px solid transparent;
+}

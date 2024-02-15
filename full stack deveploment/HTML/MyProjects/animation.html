@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .anime {
+      width: 125px;
+      height: 125px;
+      background-color: rgb(2, 198, 133);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      
+      transition: width 2s;
+  transition-timing-function: ease-out;
+
+
+
+/* 
+      animation-name: move;
+      animation-duration: 2s; */
+      border: 1px solid red;
+      position: absolute;
+      /* animation-delay: 2s;
+      animation-iteration-count: 2;
+       */
+      
+    }
+
+    .par{position: relative;
+      height: 100vh;
+      width: 100%;
+
+border: 1px solid red;
+
+    
+      
+    }
+    .anime:hover{width: 50%;
+  }
+
+    /* @keyframes move {
+      from {
+        background-color: blue;
+      }
+
+      to {
+        background-color: brown;
+      }
+    } */
+    /* @keyframes move{
+      0%   {background-color:red; left:0px; top:0px;}
+
+
+    } */
+  </style>
+</head>
+
+<body>
+  <div class="par">
+    <div class="anime"></div>
+  </div>
+</body>
+
+</html>

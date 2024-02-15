@@ -1,0 +1,14 @@
+
+
+
+.c1{
+display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  background-image: url(download.jpeg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size:cover;
+
+}
+

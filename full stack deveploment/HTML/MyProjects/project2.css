@@ -1,0 +1,281 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 150px;
+  position: fixed;
+  background-color: white;
+
+}
+
+.head {
+  padding-left: 120px;
+}
+
+li:hover {
+  color: #202ec9;
+  cursor: pointer;
+}
+
+.container-fluid {
+  width: 100vw;
+  height: 50px;
+}
+
+.search {
+  display: flex;
+  padding-left: 30px;
+
+}
+
+.s {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 19px;
+}
+
+.s>ul {
+  list-style: none;
+  display: flex;
+
+  column-gap: 30px;
+}
+
+.shop {
+  display: flex;
+  column-gap: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.logo {
+  text-align: center;
+  padding: 0px;
+  font-size: 30px;
+}
+
+.container-fluid2 {
+  overflow: hidden;
+}
+
+#container2 {
+  display: flex;
+}
+
+.text {
+  width: 50vw;
+  padding: 150px;
+  text-align: center;
+  background-color: #f1e4b8;
+  height: 438px;
+}
+
+
+.image {
+  width: 50vw;
+  box-sizing: border-box;
+}
+
+.text p {
+  padding: 30px;
+}
+
+.reg:hover {
+  background-color: black;
+  color: #f1e4b8;
+}
+
+.reg {
+  border: solid black 2px;
+  border-radius: 34px;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sell {
+  display: flex;
+  list-style: none;
+  column-gap: 34px;
+  overflow: hidden;
+  justify-content: center;
+  padding: 50px;
+}
+
+.sell li img {
+  width: 250px;
+  border-radius: 15px;
+
+
+}
+
+
+
+
+.bottle {
+  width: 100%;
+  height: 700px;
+
+}
+
+.bottleimg {
+
+  height: 100%;
+  width: 100%;
+
+  background-image: url(https://static.wixstatic.com/media/c837a6_327e6bf04c1c4443ad6c4f13728c41fb~mv2.jpg/v1/fill/w_1899,h_799,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_327e6bf04c1c4443ad6c4f13728c41fb~mv2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+
+.bottleimg p {
+  padding-top: 117px;
+  margin-right: 1112px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+}
+
+#shopnow {
+  text-decoration: none;
+  border: solid black 3px;
+  border-radius: 30px;
+  padding: 13px;
+  margin-top: 8px;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#shopnow:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+.elements {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+
+}
+
+.first {
+  width: 100%;
+  height: 100%;
+  background-color: #f6e0f0;
+
+
+}
+
+#blanket {
+  background-image: url("https://static.wixstatic.com/media/84770f_4aa0b9007e904e1091b937ea12d8a584~mv2.jpg/v1/fill/w_599,h_599,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_4aa0b9007e904e1091b937ea12d8a584~mv2.jpg");
+  background-size: contain;
+}
+
+#blanket p {
+  background-color: rgb(233, 255, 255);
+  font-family: cursive;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: inline-flex;
+  margin-right: 430px;
+}
+
+#orange {
+  background-image: url(https://static.wixstatic.com/media/84770f_5e1095c3a538463c9683b1f6e9032236~mv2.jpg/v1/fill/w_599,h_599,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_5e1095c3a538463c9683b1f6e9032236~mv2.jpg);
+  background-size: contain;
+}
+
+.something p {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.cart1 {
+  padding-top: 19px;
+  align-items: center;
+}
+
+.HOME {
+  padding: 20PX;
+  font-size: 23PX;
+}
+
+.selling {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .felelements {
+  width: 100%;
+  height: 300px;
+  background-color: #f1e4b8;
+  display: flex;
+  column-gap: 120px;
+  font-size: 16px;
+  justify-content: space-around;
+}
+
+.fitems>ul {
+  padding-top: 13px;
+  list-style: none;
+}
+
+.fitems>h1 {
+  font-family: monospace;
+}
+
+.fitems>ul>li {
+  margin: 16px;
+}
+
+#Subcribe {
+  width: 20%;
+}
+
+#emails {
+  margin-top: 52px;
+}
+
+footer {
+  padding-top: 43px;
+}
+
+.animate {
+  transition: 1s;
+  box-shadow: #000;
+}
+
+.animate:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+input[type=email]{border: 2px solid black;
+border-radius: 12px;
+background-color:  #f1e4b8;}
